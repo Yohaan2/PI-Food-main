@@ -1,0 +1,127 @@
+.container {
+	background: linear-gradient(rgba(102, 104, 110, 0.3), rgba(104, 110, 126, 0.3)),
+		url('../../image/menu.jpg');
+	height: 70px;
+	display: flex;
+	flex-direction: row;
+}
+
+.search {
+	border: none;
+	border-radius: 10px 0 0 10px;
+	padding: 10px;
+	outline: none;
+	height: 42px;
+}
+
+.search::placeholder {
+	font-family: 'Red Hat Display', sans-serif;
+	font-size: 15px;
+}
+.search:focus {
+	background-color: rgb(224, 224, 224);
+}
+.btnSearch {
+	padding: 10px;
+	border-radius: 0 10px 10px 0;
+	border: none;
+	cursor: pointer;
+	background-color: #f7a745;
+	height: 42px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	text-shadow: 1px 0px 3px rgba(0, 0, 0, 0.2);
+	font-family: 'Red Hat Display', sans-serif;
+	font-size: 15px;
+	transition: all 0.25s ease;
+}
+
+.btnSearch:hover {
+	background-color: #c7803d;
+}
+
+.containSearch {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 7em;
+	margin-right: 15px;
+}
+
+.containFilter {
+	margin-left: 8%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.containFilter select {
+	display: inline-block;
+	width: 25%;
+	cursor: pointer;
+	padding: 7px 10px;
+	margin-left: 5px;
+	height: 42px;
+	outline: 0;
+	border: 0;
+	border-radius: 0;
+	background: #f7a745;
+	font-size: 15px;
+	color: #000000;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 12px;
+	position: relative;
+	transition: all 0.25s ease;
+	text-shadow: 1px 0px 3px rgba(0, 0, 0, 0.2);
+	font-family: 'Red Hat Display', sans-serif;
+}
+.containFilter select:hover {
+	background: #f08863;
+}
+
+.btnReset {
+	padding: 7px 10px;
+	height: 42px;
+	border-radius: 10px;
+	border: none;
+	cursor: pointer;
+	background-color: #f7a745;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	text-shadow: 1px 0px 3px rgba(0, 0, 0, 0.2);
+	transition: all 0.25s ease;
+	font-family: 'Red Hat Display', sans-serif;
+	font-size: 15px;
+}
+.btnReset:hover {
+	background: #c7803d;
+}
+
+.recipe {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 42px;
+}
+
+.btnRecipe {
+	padding: 7px 10px;
+	height: 42px;
+	border: none;
+	border-radius: 10px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	text-shadow: 1px 0px 3px rgba(0, 0, 0, 0.2);
+	background-color: #f7a745;
+	cursor: pointer;
+	font-family: 'Red Hat Display', sans-serif;
+	font-size: 15px;
+	transition: all 0.25s ease;
+}
+
+.btnRecipe:hover {
+	background-color: #c7803d;
+}
+
+.containRecipe {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 10%;
+}

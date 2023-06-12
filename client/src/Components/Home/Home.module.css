@@ -1,0 +1,28 @@
+@font-face {
+	font-family: 'Colored Crayons';
+	src: url('../../fonts/Colored\ Crayons.ttf');
+}
+
+.h1 {
+	font-family: 'Colored Crayons', sans-serif;
+	color: #e4a04e;
+	font-size: 75px;
+	text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.68);
+	margin-top: 25px;
+	user-select: none;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.notFound {
+	color: #ffc886;
+	background-color: #532e00;
+	padding: 15px;
+	border-radius: 15px;
+}

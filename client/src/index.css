@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+body {
+	margin: 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background: linear-gradient(rgba(33, 37, 48, 0.6), rgba(5, 7, 12, 0.4)),
+		url('.//image/5f71e6e9cc679f96371ed1a04fafbee4.jpg') no-repeat center center fixed;
+	background-size: cover;
+	font-family: 'Red Hat Display', sans-serif;
+}

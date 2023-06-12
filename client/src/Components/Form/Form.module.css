@@ -1,0 +1,145 @@
+@font-face {
+	font-family: 'Colored Crayons';
+	src: url('../../fonts/Colored\ Crayons.ttf');
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+	height: 100vh;
+}
+.h1 {
+	font-family: 'Colored Crayons', sans-serif;
+	font-size: 55px;
+	margin-top: 5px;
+	margin-bottom: 4px;
+	user-select: none;
+}
+
+.container_Form {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	background: linear-gradient(rgba(33, 37, 48, 0.1), rgba(5, 7, 12, 0.1)),
+		url('../../image/menu.jpg') no-repeat center center fixed;
+	width: 570px;
+	min-height: 750px;
+	color: aliceblue;
+	border-radius: 20px;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.inputs {
+	width: 350px;
+	padding: 10px;
+	border-radius: 15px;
+	border: none;
+	background-color: #d37654;
+	outline: none;
+	border: 1px solid #a35336;
+	font-family: 'Red Hat Display', sans-serif;
+	margin-bottom: 5px;
+	font-size: 15px;
+}
+.inputs:focus {
+	background-color: #a35336;
+}
+.inputs::placeholder {
+	color: black;
+	opacity: 0.7;
+	font-size: 15px;
+}
+
+.boton {
+	padding: 10px;
+	border-radius: 15px;
+	border: none;
+	background-color: #d37654;
+	cursor: pointer;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	width: 340px;
+	transition: 0.3s;
+	font-family: 'Red Hat Display', sans-serif;
+	font-size: 17px;
+}
+.boton:hover {
+	box-shadow: 2px 0px 17px 1px rgba(0, 0, 0, 0.4);
+	-webkit-box-shadow: 2px 0px 17px 1px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 2px 0px 17px 1px rgba(0, 0, 0, 0.4);
+}
+
+.boton:disabled {
+	background-color: #e09c83;
+	box-shadow: none;
+	cursor: auto;
+}
+.labels {
+	font-family: 'Colored Crayons';
+	font-size: 20px;
+}
+
+.containbtn {
+	display: flex;
+	justify-content: start;
+	margin-right: 82%;
+}
+
+.btnHome {
+	padding: 12px;
+	border-radius: 15px;
+	border: none;
+	background-color: #e08d6f;
+	cursor: pointer;
+	transition: 0.2s;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: 'Red Hat Display', sans-serif;
+	box-shadow: 2px 0px 25px 1px rgba(0, 0, 0, 0.39);
+	-webkit-box-shadow: 2px 0px 25px 1px rgba(0, 0, 0, 0.39);
+	-moz-box-shadow: 2px 0px 25px 1px rgba(0, 0, 0, 0.39);
+}
+.btnHome:hover {
+	transform: scale(1.03);
+	background-color: #c4765a;
+}
+.diets {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 350px;
+	justify-content: start;
+}
+.maping {
+	display: flex;
+	flex-direction: row;
+}
+.labelD {
+	margin-left: 25px;
+	margin-right: 5px;
+}
+
+.errors {
+	color: rgb(255, 99, 99);
+}
+
+.required {
+	margin-bottom: 5px;
+}
+
+.success {
+	color: rgb(15, 189, 15);
+}
+
+.existing {
+	color: red;
+}

@@ -1,0 +1,69 @@
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-bottom: 50px;
+	margin-top: 40px;
+}
+
+.previus {
+	margin-left: 40px;
+	width: 60px;
+	border-radius: 6px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	font-family: 'Red Hat Display', sans-serif;
+	color: aliceblue;
+	background-color: #1d1716;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.previus:disabled {
+	background-color: #6e473b;
+	opacity: 0.6;
+	cursor: auto;
+}
+
+.next {
+	margin-right: 40px;
+	width: 60px;
+	border-radius: 6px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	font-family: 'Red Hat Display', sans-serif;
+	color: aliceblue;
+	background-color: #1d1716;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.next:disabled {
+	background-color: #6e473b;
+	opacity: 0.6;
+	cursor: auto;
+}
+
+.number {
+	display: flex;
+	justify-content: space-evenly;
+	font-family: 'Red Hat Display', sans-serif;
+}
+
+.center {
+	padding: 10px;
+	width: 45px;
+	margin-right: 5px;
+	border-radius: 6px;
+	cursor: pointer;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	font-family: 'Red Hat Display', sans-serif;
+	color: aliceblue;
+	background-color: #573125;
+	font-weight: bold;
+}
+
+.isCurrent {
+	background-color: #f3bc77;
+	color: black;
+	padding: 10px;
+	font-weight: bold;
+}

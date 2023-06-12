@@ -1,0 +1,127 @@
+.principal {
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+.containerDetail {
+	margin-top: 15px;
+	background: linear-gradient(rgba(33, 37, 48, 0.1), rgba(5, 7, 12, 0.1)),
+		url('../../image/menu.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 80%;
+	padding: 30px;
+	border-radius: 10px;
+}
+
+.img {
+	float: left;
+	margin-right: 45px;
+	width: 500px;
+	height: 350px;
+	border-radius: 5px;
+}
+
+.h2 {
+	margin-bottom: 10px;
+	margin-top: 10px;
+	color: rgb(255, 151, 66);
+	font-family: 'Colored Crayons', sans-serif;
+	border-radius: 5px;
+}
+
+.b {
+	margin-right: 10px;
+	font-size: 20px;
+	color: aliceblue;
+	background-color: #be5d3a;
+	border-radius: 20px;
+	padding: 5px;
+}
+.text {
+	color: rgb(255, 249, 244);
+	margin-bottom: 15px;
+}
+
+.title {
+	color: rgb(255, 151, 66);
+	margin-bottom: 10px;
+}
+.health {
+	color: rgb(255, 151, 66);
+	margin-bottom: 5px;
+}
+
+.head {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.ContainBtnHome {
+	margin-right: 36%;
+}
+.btnHome {
+	padding: 12px;
+	border-radius: 15px;
+	border: none;
+	background-color: #d68061;
+	cursor: pointer;
+	transition: 0.2s;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: 'Red Hat Display', sans-serif;
+	box-shadow: 2px 0px 25px 1px rgba(0, 0, 0, 0.39);
+	-webkit-box-shadow: 2px 0px 25px 1px rgba(0, 0, 0, 0.39);
+	-moz-box-shadow: 2px 0px 25px 1px rgba(0, 0, 0, 0.39);
+	transition: 0.3s;
+}
+
+.btnHome:hover {
+	background-color: #be5d3a;
+	transform: scale(1.03);
+}
+
+.container {
+	display: grid;
+	place-content: center;
+	height: 100vh;
+}
+.cargando {
+	width: 120px;
+	height: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-end;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+.texto_cargando {
+	padding-top: 20px;
+	color: azure;
+}
+.cargando span {
+	font-size: 20px;
+	text-transform: uppercase;
+}
+.pelotas {
+	width: 30px;
+	height: 30px;
+	background-color: #f3bc77;
+	animation: salto 0.5s alternate infinite;
+	border-radius: 50%;
+}
+.pelotas:nth-child(2) {
+	animation-delay: 0.18s;
+}
+.pelotas:nth-child(3) {
+	animation-delay: 0.37s;
+}
+@keyframes salto {
+	from {
+		transform: scaleX(1.25);
+	}
+	to {
+		transform: translateY(-50px) scaleX(1);
+	}
+}
